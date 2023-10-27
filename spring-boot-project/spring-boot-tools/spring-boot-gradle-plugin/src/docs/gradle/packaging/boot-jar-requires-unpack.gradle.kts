@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-	runtimeOnly("org.jruby:jruby-complete:1.7.25")
+	runtimeOnly("org.jruby:jruby-complete:1.7.27")
 }
 
 tasks.named<BootJar>("bootJar") {
